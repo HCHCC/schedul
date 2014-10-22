@@ -1,0 +1,29 @@
+featured-product-title {
+font-weight: 300;
+font-size: 42px;
+letter-spacing: -1px;
+margin: 40px 0 20px;
+text-shadow: 0 0 30px #000, 0 0 5px #000;
+line-height: 1;
+}
+
+featured-product-bgimage {
+position: absolute;
+left: 50%;
+margin-left: -1050px;
+top: 0;
+}
+
+featured-product-content {
+position: relative;
+top: 120px;
+left: -210px;
+width: 500px;
+margin: 0 auto;
+text-align: left;
+}
+
+body {
+display: block;
+
+}
