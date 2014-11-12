@@ -1,29 +1,88 @@
-featured-product-title {
-font-weight: 300;
-font-size: 42px;
-letter-spacing: -1px;
-margin: 40px 0 20px;
-text-shadow: 0 0 30px #000, 0 0 5px #000;
-line-height: 1;
+.input-content{
+  margin-top: 5px ;
+  max-width: 1365px;
+  height: 550px;
+  width: expression(document.body.clientWidth > 1365? "1365px": "auto" );
+  
+  background-image:url(http://img.taopic.com/uploads/allimg/130109/235055-13010ZT21625.jpg) ;
+  background-repeat: repeat; 
+  background-size: 800px 360px; 
+
 }
 
-featured-product-bgimage {
-position: absolute;
-left: 50%;
-margin-left: -1050px;
-top: 0;
+.title-span{
+  margin-top: 0px; 
+  margin-left:10px;
+  text-align: left; 
+}
+.title{
+    
+    font-family: serif;
+    letter-spacing:8px;
+    font-size:100px;
+    margin-bottom:-10px; 
+}
+.under-title{
+  font-family: monospace;
+  margin-top: 0px ;
+  margin-left:50px;
+  font-size:30px;
+}
+.center-title{
+  text-align: center;
 }
 
-featured-product-content {
-position: relative;
-top: 120px;
-left: -210px;
-width: 500px;
-margin: 0 auto;
-text-align: left;
+.login{
+  text-align: center;
+  height:300px;
+  width:350px;
+  margin-left:500px ;
+  border-radius:15px;
+  border:#FFF solid 3px;
+  background: rgba(255,255,255,0.4);
 }
 
-body {
-display: block;
+h3{
+  text-align:center;
+  color:#8f5a0a;
+}
 
+.inputs input{
+  background: rgda(255,255,255,0.4);
+  padding:10px 10px 10px 30px ;
+  margin:15px 0px 15px 12px;
+  width: 253px;
+  border:2px solid #CCC;
+  border-radius:5px;
+  font-size:20px
+
+
+}
+input focus{
+  background-color:#fff;
+  border-color:#F90;
+  outline:none;
+  -o-box-shadow:0 0 0 2px #e8c291 inset;
+}
+
+.submit{
+  margin-left:300px ;
+  text-align:center;
+  margin:5px 0px 0px 40px;
+  background-color:#ffb94b;
+  background-image:
+  -o-linear-gradient(top,#fddb6f,#ffb94b);
+  border-radius:3px;
+  text-shadow: 0 3px 0 rgba(255,255,255,0.5);
+  border-width:1px;
+  border-style:solid;
+  border-color:#d69e31 #e3a037 #d5982d #e3a037;
+  float:left;
+  height:35px;
+  padding:0;
+  width:120px;
+  cursor:pointer;
+  font:bold 15px Arial, Helvetica;
+  color:#8f5a0a ;
+ 
 }
